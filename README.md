@@ -1,1 +1,1 @@
-# frontend-base_apparel
+# Base Apparel
