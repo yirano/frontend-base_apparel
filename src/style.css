@@ -42,14 +42,6 @@ main {
   padding: 60px 170px;
 }
 
-.left-content:after {
-  content: ".";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
-}
-
 .right-content {
   float: right;
   background: url('../imgs/hero-desktop.jpg') no-repeat;
@@ -59,8 +51,8 @@ main {
   z-index: 999;
 }
 
-.right-content:after {
-  content: ".";
+.right-content:after, .left-content:after {
+  content: "";
   visibility: hidden;
   display: block;
   height: 0;
@@ -121,7 +113,6 @@ button {
 }
 
 footer {
-  clear: both;
   position: relative;
   top: -20px;
   max-width: 1440px;
@@ -138,10 +129,6 @@ footer {
   color: var(--dark-red);
   text-decoration: none;
   border-bottom: 3px solid var(--soft-red);
-}
-
-.hide {
-  display: none;
 }
 
 @media only screen and (max-width: 1022px) {
