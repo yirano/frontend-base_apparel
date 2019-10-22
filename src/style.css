@@ -121,7 +121,6 @@ button {
   box-shadow: 0px 10px 25px hsla(0, 78%, 86%, 0.589);
 }
 
-
 footer {
   clear: both;
   position: relative;
@@ -172,7 +171,7 @@ footer {
     display: block;
     background: url('../imgs/hero-mobile.jpg') no-repeat;
     background-size: cover;
-    height: 290px;
+    height: 320px;
     width: 100%;
   }
 
@@ -186,9 +185,23 @@ footer {
   }
 
   h1 {
-    font-size: 3.8em;
+    font-size: 3.1em;
     text-align: center;
     margin: 0 auto;
+    line-height: 1.2em;
+  }
+
+  .caption {
+    font-size: 1.1em;
+  }
+
+  button {
+    width: 80px;
+  }
+
+  .attribution {
+    text-align: center;
+    margin-left: 0;
   }
 
 }
