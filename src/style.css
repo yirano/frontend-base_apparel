@@ -51,7 +51,8 @@ main {
   z-index: 999;
 }
 
-.right-content:after, .left-content:after {
+.right-content::after, 
+.left-content::after {
   content: "";
   visibility: hidden;
   display: block;
